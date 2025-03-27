@@ -117,10 +117,20 @@ h5{
     background-color: rgb(228, 228, 228);
 }
 
+#formasdecontato{
+    text-align: center;
+    padding-top: none 0;
+}
+
+#email{
+    text-align: left;
+    padding-left: 30px;
+}
+
 footer {
     background-color: rgb(51, 170, 90);
     color: #ffffff;
-    padding: 5px 5px;
+    padding: 0;
     text-align: left;
     font-size: 14px;
     height: 100%;
