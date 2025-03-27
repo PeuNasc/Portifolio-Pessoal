@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(228, 228, 228);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -76,19 +76,23 @@ p{
     transform: scale(1.1);
 }
 
-.mute-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
+.galeria2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Uma coluna, como já estava */
+    gap: 15px;
+    margin: 0px 0;
 }
 
-.mute-button:hover {
-    background-color: #0056b3;
+.galeria2 video {
+    width: 95%; /* Isso já faz o vídeo ocupar toda a largura do container */
+    height: 400px; /* Aumente a altura conforme necessário */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    padding: 10px;
+}
+
+.galeria2 img:hover, .galeria2 video:hover {
+    transform: scale(1.15); /* Ajuste o valor do scale para um efeito mais acentuado */
 }
 
 #nomecompleto{
@@ -107,6 +111,10 @@ h5{
     font-size: x-large;
     background-color: rgb(51, 170, 90);
     padding: 15px;
+}
+
+.conteudosfaculdade{
+    background-color: rgb(228, 228, 228);
 }
 
 footer{
