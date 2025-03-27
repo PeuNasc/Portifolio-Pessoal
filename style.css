@@ -117,10 +117,62 @@ h5{
     background-color: rgb(228, 228, 228);
 }
 
-footer{
+footer {
     background-color: rgb(51, 170, 90);
     color: #ffffff;
+    padding: 5px 5px;
+    text-align: left;
+    font-size: 14px;
+    height: 100%;
 }
+
+.footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+footer .social-links {
+    margin-bottom: 10px;
+}
+
+footer .social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer .social-icon {
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+footer .social-links a:hover .social-icon {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+footer .social-iconinsta {
+    width: 70px;
+    height: 40px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    align-self: left;
+    padding-top: 10px;
+    ;
+}
+
+footer .social-links a:hover .social-iconinsta {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
 
 
 @media (max-width: 768px) {
